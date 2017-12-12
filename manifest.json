@@ -1,0 +1,27 @@
+{
+  "name": "Slack-emoji-enlarger",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "enlarge emoji on Slack",
+  "icons": {
+    "16": "images/icon16.png",
+    "128": "images/icon128.png"
+  },
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.slack.com/messages/*"
+      ],
+      "css": [
+        "styles.css"
+      ],
+      "run_at": "document_end",
+      "all_frames": false
+    }
+  ]
+}

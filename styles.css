@@ -1,0 +1,28 @@
+/* enlarge slack emojis */
+
+.message_content span.emoji-outer {
+  width: 2em;
+  height: 2em;
+}
+	
+.message_content span.emoji {
+  width: 2em;
+  height: 2em;
+}
+
+.message_content .emoji-sizer {
+  margin-top: 4.5px;
+}
+
+.message_content .rxn {
+  height: 2.8rem;
+}
+
+.message_content .rxn .emoji_rxn_count {
+  top: -13px;
+  padding: 0 1px 0 6px;
+}
+
+.message_content .rxn.menu_rxn .ts_icon {
+  top: 11px;
+}
