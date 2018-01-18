@@ -1,28 +1,50 @@
 /* enlarge slack emojis */
 
-.message_content span.emoji-outer {
-  width: 2em;
-  height: 2em;
-}
-	
-.message_content span.emoji {
+.c-message__body span.emoji-outer {
   width: 2em;
   height: 2em;
 }
 
-.message_content .emoji-sizer {
+.c-message__body span.emoji {
+  width: 2em;
+  height: 2em;
+}
+
+.c-message__body .emoji-sizer {
   margin-top: 4.5px;
 }
 
-.message_content .rxn {
+.c-reaction_bar .c-reaction {
   height: 2.8rem;
 }
 
-.message_content .rxn .emoji_rxn_count {
-  top: -13px;
+.c-reaction_bar .c-reaction .emoji-sizer {
+  width: 2em;
+  height: 2em;
+}
+
+
+.c-reaction_bar .c-reaction .c-reaction__count {
+  /*top: -13px;*/
   padding: 0 1px 0 6px;
 }
 
-.message_content .rxn.menu_rxn .ts_icon {
-  top: 11px;
+.c-reaction_bar .c-reaction_add {
+  height: 2.8rem;
+}
+
+.c-reaction_bar .c-reaction_add .c-icon {
+  width: 2em;
+  height: 2em;
+  top: 5px;
+}
+
+.c-message__sender .emoji-sizer {
+  width: 2em;
+  height: 2em;
+}
+
+.ReactModalPortal .emoji-sizer {
+  width: 2em;
+  height: 2em;
 }
