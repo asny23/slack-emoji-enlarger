@@ -1,15 +1,13 @@
 /* enlarge slack emojis */
 
-.c-message__body span.emoji-outer {
+.c-message__body .emoji-outer {
   width: 2em;
   height: 2em;
 }
-
-.c-message__body span.emoji {
+.c-message__body .emoji {
   width: 2em;
   height: 2em;
 }
-
 .c-message__body .emoji-sizer {
   margin-top: 4.5px;
 }
@@ -17,7 +15,6 @@
 .c-reaction_bar .c-reaction {
   height: 2.8rem;
 }
-
 .c-reaction_bar .c-reaction .emoji-sizer {
   width: 2em;
   height: 2em;
@@ -25,18 +22,21 @@
 
 
 .c-reaction_bar .c-reaction .c-reaction__count {
-  /*top: -13px;*/
   padding: 0 1px 0 6px;
 }
-
 .c-reaction_bar .c-reaction_add {
   height: 2.8rem;
 }
-
 .c-reaction_bar .c-reaction_add .c-icon {
   width: 2em;
   height: 2em;
-  top: 5px;
+}
+
+.c-reaction_bar .c-reaction_add .c-icon:first-child {
+  top: 14px;
+}
+.c-reaction_bar .c-reaction_add .c-icon:last-child {
+  top: 6px;
 }
 
 .c-message__sender .emoji-sizer {
@@ -44,7 +44,12 @@
   height: 2em;
 }
 
-.ReactModalPortal .emoji-sizer {
+#ts_tip_float_floater .ts_tip_multiline_inner .emoji-sizer {
+  width: 2em;
+  height: 2em;
+}
+
+.ReactModalPortal .c-custom_status__tooltip .emoji-sizer {
   width: 2em;
   height: 2em;
 }
