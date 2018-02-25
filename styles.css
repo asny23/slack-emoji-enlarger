@@ -20,7 +20,6 @@
   height: 2em;
 }
 
-
 .c-reaction_bar .c-reaction .c-reaction__count {
   padding: 0 1px 0 6px;
 }
@@ -30,13 +29,6 @@
 .c-reaction_bar .c-reaction_add .c-icon {
   width: 2em;
   height: 2em;
-}
-
-.c-reaction_bar .c-reaction_add .c-icon:first-child {
-  top: 14px;
-}
-.c-reaction_bar .c-reaction_add .c-icon:last-child {
-  top: 6px;
 }
 
 .c-message__sender .emoji-sizer {
