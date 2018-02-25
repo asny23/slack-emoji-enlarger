@@ -1,8 +1,8 @@
 {
-  "name": "Slack-emoji-enlarger",
-  "version": "1.1.0",
+  "name": "Slack-emoji-modifier",
+  "version": "2.0.0",
   "manifest_version": 2,
-  "description": "enlarge emoji on Slack",
+  "description": "modify emoji on Slack",
   "icons": {
     "16": "images/icon16.png",
     "128": "images/icon128.png"
@@ -19,6 +19,9 @@
       ],
       "css": [
         "styles.css"
+      ],
+      "js": [
+        "script.js"
       ],
       "run_at": "document_end"
     }
