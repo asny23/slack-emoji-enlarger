@@ -9,7 +9,7 @@
   height: 2em;
 }
 .c-message__body .emoji-sizer {
-  margin-top: 4.5px;
+  margin-top: 0;
 }
 
 .c-reaction_bar .c-reaction {
