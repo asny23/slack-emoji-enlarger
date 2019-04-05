@@ -36,9 +36,26 @@
   height: 2em;
 }
 
+#ts_tip_float_floater .ts_tip_tip {
+  width: 500px;
+  max-width: 500px;
+}
+
+#ts_tip_float_floater .ts_tip_inner_current_status {
+  line-height: 3.4;
+}
+
 #ts_tip_float_floater .ts_tip_multiline_inner .emoji-sizer {
   width: 2em;
   height: 2em;
+}
+
+.ReactModalPortal .c-tooltip__tip {
+  max-width: 400px;
+}
+
+.ReactModalPortal .c-custom_status__tooltip {
+  line-height: 3.4;
 }
 
 .ReactModalPortal .c-custom_status__tooltip .emoji-sizer {
